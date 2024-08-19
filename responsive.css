@@ -1,0 +1,307 @@
+<<<<<<< HEAD
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+    .primary-menu ul li a{
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .primary-menu ul li a{
+        padding: 0px 10px;
+        font-size: 13px; 
+        text-align:center;
+    }
+    .card h2 {
+        font-size: 21px;
+    }
+    .primary-menu p {
+        margin: auto;
+        width: 50%;
+        padding: 9px 8px;
+        margin-top: 19px;
+        
+       
+    }
+    .social-icon i {
+        padding: 0px 18px;
+        font-size: 24px;
+    }
+    .social-icon i {
+        padding-bottom: 14px;
+    }
+    .primary-menu h2 {
+        margin-top: -35px;
+    }
+    .primary-menu p {
+        width: 100%;
+        
+    }
+   
+}
+
+@media screen and (max-width: 500px){
+    .hadaer{
+     background-color: #ddd;
+    }
+    .link{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .primary-menu ul li a{
+    padding: -10px 5px;
+    font-size: 15px;
+    text-align: left;
+    display:block;
+    text-align: center;
+    background-color: transparent;
+    }
+
+    .primary-menu ul{
+        text-align: center; 
+     }
+     .primary-menu ul li{
+         display: block;    
+     }
+     .banner{
+        padding: 100px 0px;
+    }
+    .banner {
+        padding: 80px 0px;
+    }
+    .banner-text h1 {
+        height: 50px;
+        width: 417px;
+        margin: left;
+        font-size: 18px;
+        padding-top: 4px;
+        letter-spacing: 0px;
+    }
+    .banner-text h1::after{
+        background-color: transparent;  
+    }
+
+    .banner-text h2 {
+        font-size: 14px;
+        height: 60px;
+        width: 419px;
+        margin-top: -19px;
+        padding-top: 20px;
+        letter-spacing: 0px;  
+    }
+    .banner-text h2::after{
+        background-color: transparent;  
+    }
+
+    .aboout-text p {
+        font-size: 12px;
+        width: 315px;
+        padding-left: 0px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .product-item p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .primary-menu h2 {
+        margin-bottom: 27px;
+    }
+    .primary-menu p {
+        margin: 17px 0px;
+        padding: 10px 0px;
+    }
+    .social-icon i {
+        font-size: 20px;
+        color: red;
+        padding: 0px 16px;
+        margin-bottom: 15px;
+    }
+    .row h3 {
+        letter-spacing: 0px;
+        padding: 0px 0px;
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .card p {
+        font-size: 11px;
+        margin-top: 4px;
+        margin-bottom: 19px;
+    }
+    .card h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .fa-solid {
+        font-size: 36px;
+    }
+    .primary-menu p {
+    
+        margin: 22px 5px;
+        
+        width: 100%;
+    }
+    
+}
+
+=======
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+    .primary-menu ul li a{
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .primary-menu ul li a{
+        padding: 0px 10px;
+        font-size: 13px; 
+        text-align:center;
+    }
+    .card h2 {
+        font-size: 21px;
+    }
+    .primary-menu p {
+        margin: auto;
+        width: 50%;
+        padding: 9px 8px;
+        margin-top: 19px;
+        
+       
+    }
+    .social-icon i {
+        padding: 0px 18px;
+        font-size: 24px;
+    }
+    .social-icon i {
+        padding-bottom: 14px;
+    }
+    .primary-menu h2 {
+        margin-top: -35px;
+    }
+    .primary-menu p {
+        width: 100%;
+        
+    }
+   
+}
+
+@media screen and (max-width: 500px){
+    .hadaer{
+     background-color: #ddd;
+    }
+    .link{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .primary-menu ul li a{
+    padding: -10px 5px;
+    font-size: 15px;
+    text-align: left;
+    display:block;
+    text-align: center;
+    background-color: transparent;
+    }
+
+    .primary-menu ul{
+        text-align: center; 
+     }
+     .primary-menu ul li{
+         display: block;    
+     }
+     .banner{
+        padding: 100px 0px;
+    }
+    .banner {
+        padding: 80px 0px;
+    }
+    .banner-text h1 {
+        height: 50px;
+        width: 417px;
+        margin: left;
+        font-size: 18px;
+        padding-top: 4px;
+        letter-spacing: 0px;
+    }
+    .banner-text h1::after{
+        background-color: transparent;  
+    }
+
+    .banner-text h2 {
+        font-size: 14px;
+        height: 60px;
+        width: 419px;
+        margin-top: -19px;
+        padding-top: 20px;
+        letter-spacing: 0px;  
+    }
+    .banner-text h2::after{
+        background-color: transparent;  
+    }
+
+    .aboout-text p {
+        font-size: 12px;
+        width: 315px;
+        padding-left: 0px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .product-item p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .primary-menu h2 {
+        margin-bottom: 27px;
+    }
+    .primary-menu p {
+        margin: 17px 0px;
+        padding: 10px 0px;
+    }
+    .social-icon i {
+        font-size: 20px;
+        color: red;
+        padding: 0px 16px;
+        margin-bottom: 15px;
+    }
+    .row h3 {
+        letter-spacing: 0px;
+        padding: 0px 0px;
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .card p {
+        font-size: 11px;
+        margin-top: 4px;
+        margin-bottom: 19px;
+    }
+    .card h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .fa-solid {
+        font-size: 36px;
+    }
+    .primary-menu p {
+    
+        margin: 22px 5px;
+        
+        width: 100%;
+    }
+    
+}
+
+>>>>>>> b4f813519f6d094adbf8fa29e8964a8bb956bbb7

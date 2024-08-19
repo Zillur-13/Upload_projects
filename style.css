@@ -1,0 +1,472 @@
+<<<<<<< HEAD
+html{
+    scroll-behavior: smooth;
+}
+.hadaer{
+    background-color: seashell; 
+}
+.link a{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+    
+}
+.link a:hover{
+   color: black;
+    
+}
+.primary-menu ul{
+   text-align: right;
+   margin-bottom: 0px;
+  
+}
+.primary-menu ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.primary-menu ul li a{
+    padding: 0px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    text-transform: capitalize;
+    transition: 0.4s;
+   
+}
+.primary-menu ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+/* banner */
+
+.banner{
+    background-image: url(./logo/action.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+.banner-text h1{
+    color: white;
+    height: 60px;
+    width: 600px;
+    /* background-color: rgb(0,0,0,.4); */
+    margin: auto;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-top:15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h1::after{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 600px;
+    background-color: gray;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    transition: 1.2s;
+}
+.banner-text h1:hover:after{
+    height: 100%;
+}
+
+
+.banner-text h2{
+
+    font-size: 22px;
+    height: 60px;
+    width: 700px;
+    /* background-color: rgb(5, 252, 26); */
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1.5;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h2::after{
+   content: "";
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   height: 60px;
+   width: 0px;
+   border-radius: 10px;
+   background-color: white;
+   transition: 1.5s;
+   z-index: -1;
+}
+
+.banner-text h2:hover:after{
+    width: 100%;
+}
+
+/* about */
+
+.about{
+    background-color: aliceblue;
+}
+.aboout-text h2{
+    
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.aboout-text p{
+    font-size: 16px;
+    font-weight: bold;
+    width: 700px;
+    margin: auto;
+}
+
+/* card */
+
+
+.fa-solid{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.card p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* product */
+
+img{
+    max-width: 100%;
+}
+
+.product-item p{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.primary-menu h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: blue;
+    cursor: pointer;
+    padding: 15px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+.primary-menu p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 5px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: rgb(252, 5, 5);
+    border: 1px solid lime;
+    
+} 
+.btn a{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    margin: auto;
+}
+
+.form-control {
+    resize: none;
+}
+
+/* footer */
+.footer-part{
+    background-color: black;
+}
+
+
+.row h3{
+    color: #ddd;
+    letter-spacing: 3px;
+    padding: 7px 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.row h3:hover{
+    color: red;
+    cursor: pointer;
+}
+.social-icon i{
+    padding: 0px 30px;
+    font-size: 30px;
+    line-height: 25px;
+    color: blue;
+    transition: 0.3s;
+}
+
+.social-icon i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.3);
+=======
+html{
+    scroll-behavior: smooth;
+}
+.hadaer{
+    background-color: seashell; 
+}
+.link a{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+    
+}
+.link a:hover{
+   color: black;
+    
+}
+.primary-menu ul{
+   text-align: right;
+   margin-bottom: 0px;
+  
+}
+.primary-menu ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.primary-menu ul li a{
+    padding: 0px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    text-transform: capitalize;
+    transition: 0.4s;
+   
+}
+.primary-menu ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+/* banner */
+
+.banner{
+    background-image: url(./logo/action.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+.banner-text h1{
+    color: white;
+    height: 60px;
+    width: 600px;
+    /* background-color: rgb(0,0,0,.4); */
+    margin: auto;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-top:15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h1::after{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 600px;
+    background-color: gray;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    transition: 1.2s;
+}
+.banner-text h1:hover:after{
+    height: 100%;
+}
+
+
+.banner-text h2{
+
+    font-size: 22px;
+    height: 60px;
+    width: 700px;
+    /* background-color: rgb(5, 252, 26); */
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1.5;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h2::after{
+   content: "";
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   height: 60px;
+   width: 0px;
+   border-radius: 10px;
+   background-color: white;
+   transition: 1.5s;
+   z-index: -1;
+}
+
+.banner-text h2:hover:after{
+    width: 100%;
+}
+
+/* about */
+
+.about{
+    background-color: aliceblue;
+}
+.aboout-text h2{
+    
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.aboout-text p{
+    font-size: 16px;
+    font-weight: bold;
+    width: 700px;
+    margin: auto;
+}
+
+/* card */
+
+
+.fa-solid{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.card p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* product */
+
+img{
+    max-width: 100%;
+}
+
+.product-item p{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.primary-menu h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: blue;
+    cursor: pointer;
+    padding: 15px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+.primary-menu p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 5px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: rgb(252, 5, 5);
+    border: 1px solid lime;
+    
+} 
+.btn a{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    margin: auto;
+}
+
+.form-control {
+    resize: none;
+}
+
+/* footer */
+.footer-part{
+    background-color: black;
+}
+
+
+.row h3{
+    color: #ddd;
+    letter-spacing: 3px;
+    padding: 7px 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.row h3:hover{
+    color: red;
+    cursor: pointer;
+}
+.social-icon i{
+    padding: 0px 30px;
+    font-size: 30px;
+    line-height: 25px;
+    color: blue;
+    transition: 0.3s;
+}
+
+.social-icon i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.3);
+>>>>>>> b4f813519f6d094adbf8fa29e8964a8bb956bbb7
+}
